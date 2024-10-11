@@ -7,7 +7,7 @@ import ControlDispositivos from "../models/ControlDispositivos.js"
 import Swal from 'sweetalert2'
 import multer from "multer";
 import mimeTypes from "mime-types";
-import Requisicion from "../models/Requisicion.js";
+import requisicion from "../models/requisicion.js";
 import { check, validationResult } from "express-validator";
 import { alerta } from "../../index.js";
 import { generarJWT, generarId } from "../helpers/tokens.js";
